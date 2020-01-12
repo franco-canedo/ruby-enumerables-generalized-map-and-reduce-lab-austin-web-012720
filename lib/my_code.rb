@@ -9,6 +9,10 @@ def map(array)
   new_array
 end
 
-def reduce(source_array, sv=0)
- 
+def reduce(array, sv=0)
+ i = 0 
+  while i < array.length do 
+   new_array << yield(array[i])
+   i += 1
+  end 
 end 
