@@ -11,8 +11,10 @@ end
 
 def reduce(array, sv=0)
   i = 0 
+  total = sv
   while i < array.length do 
    yield(array[i])
    i += 1
   end 
+  total
 end 
