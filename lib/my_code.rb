@@ -5,6 +5,4 @@ def map(array)
  
 end
 
-def map(dune)
-  dune.map { |n| n}
-end 
+
