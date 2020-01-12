@@ -5,6 +5,8 @@ def map(array)
   while i < array do 
     yield array[i]
   end 
+  
+  
 end
 
 
