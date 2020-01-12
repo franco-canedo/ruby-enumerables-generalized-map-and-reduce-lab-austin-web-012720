@@ -9,7 +9,7 @@ def map(array)
   new_array
 end
 
-def reduce(array, sv=nil)
+def reduce(array, sv=0)
   i = 0 
   total = sv
   while i < array.length do 
