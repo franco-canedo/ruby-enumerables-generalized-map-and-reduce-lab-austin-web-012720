@@ -4,3 +4,7 @@ def map(array)
  new_array
  
 end
+
+def map(dune)
+  
+end 
